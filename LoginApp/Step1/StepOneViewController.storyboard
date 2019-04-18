@@ -18,27 +18,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DJJ-BD-gur">
-                                <rect key="frame" x="57" y="273" width="300" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DJJ-BD-gur">
+                                <rect key="frame" x="24" y="164" width="366" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="iyw-xi-5h8"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPB-8y-0zK">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPB-8y-0zK">
+                                <rect key="frame" x="107" y="308" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7bi-Nu-fXo"/>
+                                    <constraint firstAttribute="width" constant="200" id="mGf-3K-VTt"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LIL-TE-OZZ">
-                                <rect key="frame" x="57" y="341" width="300" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LIL-TE-OZZ">
+                                <rect key="frame" x="24" y="228" width="366" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="flW-Wt-8Rb"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DJJ-BD-gur" firstAttribute="top" secondItem="JQZ-CJ-mc6" secondAttribute="top" constant="120" id="2XJ-Eg-5z2"/>
+                            <constraint firstItem="fPB-8y-0zK" firstAttribute="centerX" secondItem="VRD-YK-pSI" secondAttribute="centerX" id="7mz-ex-nTc"/>
+                            <constraint firstItem="JQZ-CJ-mc6" firstAttribute="trailing" secondItem="LIL-TE-OZZ" secondAttribute="trailing" constant="24" id="F4t-rl-Swc"/>
+                            <constraint firstItem="DJJ-BD-gur" firstAttribute="leading" secondItem="JQZ-CJ-mc6" secondAttribute="leading" constant="24" id="OmS-tp-Xr1"/>
+                            <constraint firstItem="fPB-8y-0zK" firstAttribute="top" secondItem="LIL-TE-OZZ" secondAttribute="bottom" constant="40" id="Y4k-PE-tbD"/>
+                            <constraint firstItem="LIL-TE-OZZ" firstAttribute="leading" secondItem="JQZ-CJ-mc6" secondAttribute="leading" constant="24" id="aY1-ss-N0Z"/>
+                            <constraint firstItem="LIL-TE-OZZ" firstAttribute="top" secondItem="DJJ-BD-gur" secondAttribute="bottom" constant="24" id="epE-FJ-n8W"/>
+                            <constraint firstItem="JQZ-CJ-mc6" firstAttribute="trailing" secondItem="DJJ-BD-gur" secondAttribute="trailing" constant="24" id="krQ-lK-ltQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JQZ-CJ-mc6"/>
                     </view>
                 </viewController>

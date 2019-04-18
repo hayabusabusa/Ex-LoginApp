@@ -116,7 +116,7 @@ class AnimationTextField: UITextField {
                                                                         return
                                                                     }
                                                                     
-                                                                    let duration: TimeInterval = 0.4
+                                                                    let duration: TimeInterval = 0.2
                                                                     if let text = self?.text, !text.isEmpty {
                                                                         guard let placeholderText = placeholderLabel.text, placeholderText.isEmpty else {
                                                                             return
