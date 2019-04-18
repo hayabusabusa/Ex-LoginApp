@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bfM-b9-jX8">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ログイン-->
+        <scene sceneID="mMf-bq-MDf">
+            <objects>
+                <viewController id="wOo-jk-Gl6" customClass="LoginViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wE0-DL-jhx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ログインID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jKh-ad-s2J" customClass="AnimationTextField" customModule="LoginApp" customModuleProvider="target">
+                                <rect key="frame" x="40" y="208" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gas-3B-Zw2"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabelColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fL0-y7-Mox">
+                                <rect key="frame" x="107" y="392" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.85098039219999999" green="0.32549019610000002" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HAL-IV-2ZT"/>
+                                    <constraint firstAttribute="width" constant="200" id="LAI-ds-V89"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="ログイン">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapLoginButton:" destination="wOo-jk-Gl6" eventType="touchUpInside" id="MCo-gd-JqW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32q-OZ-N1m">
+                                <rect key="frame" x="145.5" y="440" width="123" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <state key="normal" title="新規登録はこちらから">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s9n-Kt-f5R" customClass="AnimationTextField" customModule="LoginApp" customModuleProvider="target">
+                                <rect key="frame" x="40" y="272" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ix3-jZ-LoT"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabelColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="32q-OZ-N1m" firstAttribute="top" secondItem="fL0-y7-Mox" secondAttribute="bottom" constant="8" id="00k-H1-x3F"/>
+                            <constraint firstItem="pgY-QU-SAn" firstAttribute="trailing" secondItem="jKh-ad-s2J" secondAttribute="trailing" constant="40" id="DaH-6Z-0my"/>
+                            <constraint firstItem="jKh-ad-s2J" firstAttribute="top" secondItem="pgY-QU-SAn" secondAttribute="top" constant="120" id="Dap-gC-k1e"/>
+                            <constraint firstItem="s9n-Kt-f5R" firstAttribute="top" secondItem="jKh-ad-s2J" secondAttribute="bottom" constant="24" id="E7X-B0-jrn"/>
+                            <constraint firstItem="s9n-Kt-f5R" firstAttribute="leading" secondItem="pgY-QU-SAn" secondAttribute="leading" constant="40" id="HP1-1b-Cp6"/>
+                            <constraint firstItem="jKh-ad-s2J" firstAttribute="leading" secondItem="pgY-QU-SAn" secondAttribute="leading" constant="40" id="NEp-ML-a4V"/>
+                            <constraint firstItem="fL0-y7-Mox" firstAttribute="centerX" secondItem="wE0-DL-jhx" secondAttribute="centerX" id="fVh-ds-hP1"/>
+                            <constraint firstItem="pgY-QU-SAn" firstAttribute="trailing" secondItem="s9n-Kt-f5R" secondAttribute="trailing" constant="40" id="uDN-Ob-uqV"/>
+                            <constraint firstItem="32q-OZ-N1m" firstAttribute="centerX" secondItem="wE0-DL-jhx" secondAttribute="centerX" id="ugD-tI-KTe"/>
+                            <constraint firstItem="fL0-y7-Mox" firstAttribute="top" secondItem="s9n-Kt-f5R" secondAttribute="bottom" constant="80" id="uvj-3c-yF6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pgY-QU-SAn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ログイン" id="10Z-7a-ZCV"/>
+                    <connections>
+                        <outlet property="identifierTextField" destination="jKh-ad-s2J" id="Q9Y-G5-nc5"/>
+                        <outlet property="passwordTextField" destination="s9n-Kt-f5R" id="h7I-dQ-glT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BA5-qV-bUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="892.75362318840587" y="-287.27678571428572"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IFZ-Zh-iPZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bfM-b9-jX8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sDb-vy-LOo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wOo-jk-Gl6" kind="relationship" relationship="rootViewController" id="UM0-Rb-T8l"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tTj-JH-2gp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17.39130434782609" y="-287.27678571428572"/>
+        </scene>
+    </scenes>
+</document>
