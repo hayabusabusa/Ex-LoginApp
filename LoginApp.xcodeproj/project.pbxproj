@@ -19,6 +19,10 @@
 		A46437AA22687C2500C71C31 /* AnimationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46437A922687C2500C71C31 /* AnimationTextField.swift */; };
 		A46437AD22687E7100C71C31 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46437AC22687E7100C71C31 /* LoginViewController.swift */; };
 		A46437AF22687E9A00C71C31 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46437AE22687E9A00C71C31 /* LoginViewController.storyboard */; };
+		A4BFECCF226950C00016992E /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFECCE226950C00016992E /* StepTwoViewController.swift */; };
+		A4BFECD1226950E70016992E /* StepTwoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BFECD0226950E70016992E /* StepTwoViewController.storyboard */; };
+		A4BFECD4226954710016992E /* StepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFECD3226954710016992E /* StepThreeViewController.swift */; };
+		A4BFECD6226954980016992E /* StepThreeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BFECD5226954980016992E /* StepThreeViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		A46437A922687C2500C71C31 /* AnimationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTextField.swift; sourceTree = "<group>"; };
 		A46437AC22687E7100C71C31 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A46437AE22687E9A00C71C31 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		A4BFECCE226950C00016992E /* StepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		A4BFECD0226950E70016992E /* StepTwoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StepTwoViewController.storyboard; sourceTree = "<group>"; };
+		A4BFECD3226954710016992E /* StepThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepThreeViewController.swift; sourceTree = "<group>"; };
+		A4BFECD5226954980016992E /* StepThreeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StepThreeViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,8 @@
 				A464377722687B2600C71C31 /* ViewController.swift */,
 				A464377922687B2600C71C31 /* Main.storyboard */,
 				A46437A322687B5B00C71C31 /* Step1 */,
+				A4BFECCD226950A40016992E /* Step2 */,
+				A4BFECD2226954520016992E /* Step3 */,
 				A46437AB22687E2D00C71C31 /* Product */,
 				A46437A822687BED00C71C31 /* Style */,
 				A464377C22687B2800C71C31 /* Assets.xcassets */,
@@ -162,6 +172,24 @@
 				A46437AE22687E9A00C71C31 /* LoginViewController.storyboard */,
 			);
 			path = Product;
+			sourceTree = "<group>";
+		};
+		A4BFECCD226950A40016992E /* Step2 */ = {
+			isa = PBXGroup;
+			children = (
+				A4BFECCE226950C00016992E /* StepTwoViewController.swift */,
+				A4BFECD0226950E70016992E /* StepTwoViewController.storyboard */,
+			);
+			path = Step2;
+			sourceTree = "<group>";
+		};
+		A4BFECD2226954520016992E /* Step3 */ = {
+			isa = PBXGroup;
+			children = (
+				A4BFECD3226954710016992E /* StepThreeViewController.swift */,
+				A4BFECD5226954980016992E /* StepThreeViewController.storyboard */,
+			);
+			path = Step3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BFECD6226954980016992E /* StepThreeViewController.storyboard in Resources */,
+				A4BFECD1226950E70016992E /* StepTwoViewController.storyboard in Resources */,
 				A46437A722687BB300C71C31 /* StepOneViewController.storyboard in Resources */,
 				A464378022687B2800C71C31 /* LaunchScreen.storyboard in Resources */,
 				A46437AF22687E9A00C71C31 /* LoginViewController.storyboard in Resources */,
@@ -302,6 +332,8 @@
 				A464377822687B2600C71C31 /* ViewController.swift in Sources */,
 				A46437AD22687E7100C71C31 /* LoginViewController.swift in Sources */,
 				A464377622687B2600C71C31 /* AppDelegate.swift in Sources */,
+				A4BFECCF226950C00016992E /* StepTwoViewController.swift in Sources */,
+				A4BFECD4226954710016992E /* StepThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
