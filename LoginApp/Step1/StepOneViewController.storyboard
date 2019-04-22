@@ -30,8 +30,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPB-8y-0zK">
                                 <rect key="frame" x="107" y="308" width="200" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="7bi-Nu-fXo"/>
-                                    <constraint firstAttribute="width" constant="200" id="mGf-3K-VTt"/>
+                                    <constraint firstAttribute="width" constant="200" id="6Vs-1w-ZNF"/>
+                                    <constraint firstAttribute="height" constant="40" id="K4X-O2-qLv"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -48,12 +48,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DJJ-BD-gur" firstAttribute="top" secondItem="JQZ-CJ-mc6" secondAttribute="top" constant="120" id="2XJ-Eg-5z2"/>
-                            <constraint firstItem="fPB-8y-0zK" firstAttribute="centerX" secondItem="VRD-YK-pSI" secondAttribute="centerX" id="7mz-ex-nTc"/>
                             <constraint firstItem="JQZ-CJ-mc6" firstAttribute="trailing" secondItem="LIL-TE-OZZ" secondAttribute="trailing" constant="24" id="F4t-rl-Swc"/>
                             <constraint firstItem="DJJ-BD-gur" firstAttribute="leading" secondItem="JQZ-CJ-mc6" secondAttribute="leading" constant="24" id="OmS-tp-Xr1"/>
-                            <constraint firstItem="fPB-8y-0zK" firstAttribute="top" secondItem="LIL-TE-OZZ" secondAttribute="bottom" constant="40" id="Y4k-PE-tbD"/>
                             <constraint firstItem="LIL-TE-OZZ" firstAttribute="leading" secondItem="JQZ-CJ-mc6" secondAttribute="leading" constant="24" id="aY1-ss-N0Z"/>
+                            <constraint firstItem="fPB-8y-0zK" firstAttribute="centerX" secondItem="VRD-YK-pSI" secondAttribute="centerX" id="cJl-Db-Xqk"/>
                             <constraint firstItem="LIL-TE-OZZ" firstAttribute="top" secondItem="DJJ-BD-gur" secondAttribute="bottom" constant="24" id="epE-FJ-n8W"/>
+                            <constraint firstItem="fPB-8y-0zK" firstAttribute="top" secondItem="LIL-TE-OZZ" secondAttribute="bottom" constant="40" id="hra-tt-Zxq"/>
                             <constraint firstItem="JQZ-CJ-mc6" firstAttribute="trailing" secondItem="DJJ-BD-gur" secondAttribute="trailing" constant="24" id="krQ-lK-ltQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JQZ-CJ-mc6"/>
